@@ -1,0 +1,14 @@
+array1:
+- 1
+- 2
+- 3
+array2:
+- 4.5
+- 5.5
+constant1: 5
+constant2: 3
+nested_expression: 10
+result_add: 8
+result_mul: 15
+result_pow: 125
+result_sub: 2

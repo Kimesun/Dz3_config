@@ -1,0 +1,16 @@
+constant1: 5; Константа для операций
+constant2: 3; Еще одна константа
+array1: [1, 2, 3]; Массив целых чисел
+array2: [4.5, 5.5]; Массив чисел с плавающей точкой
+
+result_add: 
+  expr: ["constant1", "constant2", "+"]; Проверка сложения
+result_sub: 
+  expr: ["constant1", "constant2", "-"]; Проверка вычитания
+result_mul: 
+  expr: ["constant1", "constant2", "*"]; Проверка умножения
+result_pow: 
+  expr: ["constant1", "3", "pow"]; Проверка возведения в степень
+
+nested_expression: 
+  expr: ["result_add", "result_sub", "+"]; Сложение двух результатов
